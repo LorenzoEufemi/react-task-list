@@ -31,10 +31,10 @@ function App() {
 
       <section className="header"> <h2>Task Manager</h2></section>
       <section className="container">
-        <h4 className="task">Current Tasks (4)</h4>
+        <h4 className="task">Current Tasks ({currentArray.length})</h4>
         <ul className="task-ul">{currentTask()} </ul>
         <hr />
-        <h4 className="task">Completed Tasks (6)</h4>
+        <h4 className="task">Completed Tasks ({completedArray.length})</h4>
         <ul className="task-ul">{completedTask()}</ul>
       </section>
 
